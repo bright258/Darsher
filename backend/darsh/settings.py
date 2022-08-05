@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-v9@mqts*!_tpl+_htfi^=om=vf*az_(kqb$6u4vso8(5u$hxdk'
+SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -141,7 +141,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 cloudinary.config(
-    cloud_name= 'dmjwzcjel',
-    api_key=  '166665833888589',
-    api_secret= 'FmuK9ZcteGr3UJg10wvrHGHOAAA'
+    cloud_name,
+    api_key,
+    api_secret
 )
